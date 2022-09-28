@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Projetinho </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' type='text/css' media='screen' href='segredo.css'>
+        <script type="text/javascript" src='segredo.js'></script>      
+    </head>
+    <body>
+        <section id="bloco" >
+            <p> Gato Calculador </p>
+            <section id="foto">
+                <img src="img/gato.gif" title="gato" alt="gatooo" />
+            </section>
+
+            <div id="calc1">
+                <label> Dia: </label>
+                <input type="text" id="dia" name="dia" maxlength="2"
+                onkeypress='return event.charCode >= 48 && event.charCode <= 57' class="quadro"/>
+                <label> Mês: </label>
+                <input type="text" id="mes" name="mes" maxlength="2" 
+                onkeypress='return event.charCode >= 48 && event.charCode <= 57' class="quadro"/>
+                <label> Ano: </label>
+                <input type="text" id="ano" name="ano" maxlength="30" 
+                onkeypress='return event.charCode >= 48 && event.charCode <= 57' class="quadro"/>
+            </div>
+            <p> Insira outro valor qualquer: </p>
+            <div id="calc2">
+                <label> Dia: </label>
+                <input type="text" id="dia2" name="dia2" maxlength="2"
+                onkeypress='return event.charCode >= 48 && event.charCode <= 57' class="quadro"/>
+                <label> Mês: </label>
+                <input type="text" id="mes2" name="mes2" maxlength="2"
+                onkeypress='return event.charCode >= 48 && event.charCode <= 57' class="quadro"/>
+                <label> Ano: </label>
+                <input type="text" id="ano2" name="ano2" maxlength="30"
+                onkeypress='return event.charCode >= 48 && event.charCode <= 57' class="quadro"/>
+            </div>
+            </div>
+
+            <div id="resultado">
+
+            </div>
+            <button onclick="somadia()"> Clique </button>
+            </div>
+        </section>
+        <section id="carinho">
+            <h1 style = "text-align:center; color: #FFF; font-size: 40px;" > eu te amo juan</h1> 
+            <br> 
+            <h2 style = "text-align:center; color: #FFF; font-size: 30px;" > nossos 1000 dias juntos </h2> 
+
+            <p style="text-align:center;"> 
+                Hoje exatamente 18 de setembro de 2022 fazem 1000 dias que estamos juntos, 
+                escrevia cartas pra você e sempre senti que nada que colocasse no papel seria 
+                suficiente pra demonstrar o que sinto, quero sempre que vc seja feliz e que a 
+                gente possa viver o futuro juntos e com as coisas que nós esperamos dando certo, 
+                eu sei que tudo que aconteceu até a gente chegar aqui não foi fácil até porque 
+                o amor não é fácil mas eu quero passar o que for difícil com você e quero que vc 
+                sinta que pode contar comigo pra cuidar de você, eu sou muito grata por por tudo 
+                que faz e ja fez por mim, você é a minha pessoa favorita e eu te amo mais que tudo, 
+                te amo mais que te amava no começo porque a cada dia você me ensina uma coisa nova 
+                para amar sobre você.
+
+                <input type="text" id="dii" name="dii" value="02" class="data" disabled />
+                <input type="text" id="mee" name="mee" value="01" class="data" disabled />
+                <input type="text" id="ann" name="teste" value="2020" class="data" disabled />
+
+                <section class="fig">
+                    <img src="img/amor.gif" title="gato" alt="gatooo" />
+                </section>
+
+
+            </p>
+        </section>
+    </body>
+</html>
